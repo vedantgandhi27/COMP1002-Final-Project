@@ -1,0 +1,362 @@
+/* CSS for product page */
+* {
+    padding: 0em;
+    margin: 0em;
+    box-sizing: border-box;
+}
+
+section.main_content1 {
+    background-image: url("Media/background_asset.webp");
+    background-size: 76%;
+}
+
+/* css for particular shoe details */
+
+
+div.shoe_info {
+    padding: 1em;
+}
+
+p.shoe_family {
+    font-size: 1.5em;
+}
+
+div.branding>h1,
+p.shoe_family,
+p.shoe_pricing {
+    text-align: left;
+    font-family: "Urbanist", sans-serif;
+
+}
+
+div.branding>h1 {
+    color: goldenrod;
+    font-family: "Orbitron", sans-serif;
+    font-size: 2.5em;
+}
+
+p.shoe_pricing {
+    font-size: 2.0em;
+}
+
+div.shoe_assests {
+
+    padding: 2em;
+}
+
+div.shoe_assests>img {
+    width: 53.5em;
+    box-shadow: -6px -5px 8px 0px #fedf78;
+}
+
+div.shoe_info {
+    color: white;
+    text-align: center;
+}
+
+div.shoe_details {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.varient>p {
+    text-align: left;
+    font-size: 1.5em;
+    font-family: "Urbanist", sans-serif;
+}
+
+
+
+div.size_text_1>p {
+    font-size: 1.5em;
+}
+
+div.size_guide {
+    padding-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.parent_size {
+    padding-bottom: 1em;
+}
+
+div.size_chart>a {
+    color: wheat;
+    text-decoration: none;
+    align-items: center;
+    text-transform: none;
+}
+
+/* shoe size box css */
+
+
+div.size_con {
+    font-family: "Urbanist", sans-serif;
+}
+
+div.size_r1 {
+    min-width: 7em;
+    border: 1px solid wheat;
+}
+
+div.size_con_row1 {
+    place-content: start;
+    display: flex;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+}
+
+div.size_con_row1>img {
+    width: 25em;
+}
+
+div.size_r1 {
+    padding: 0.8em;
+}
+
+div.size_r1>a {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+div.show_colors {
+    padding: 1em 0;
+    display: flex;
+}
+
+div.color_opt {
+    border: 1px solid wheat;
+}
+
+div.color_opt>a>img {
+    width: 11.6em;
+    display: flex;
+}
+
+div.user_interct div {
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #ae946d;
+}
+
+span.buy_now,
+span.wishlist_div {
+    box-shadow: 3px 3px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    background-color: #ae946d;
+    margin-bottom: 1em;
+}
+
+span.buy_now>a,
+span.wishlist_div>a {
+    font-size: 1.5em;
+    width: 100%;
+    padding: 1em;
+    font-family: "Varela", sans-serif;
+}
+
+span.buy_now>a>img,
+span.wishlist_div>a>img {
+    width: 1.9em;
+    padding: 0 0.2em;
+    vertical-align: text-top;
+}
+
+span.buy_now:hover,
+span.wishlist_div:hover {
+    box-shadow: rgb(255, 255, 255) 3px 3px 6px;
+    transition: box-shadow 0.5s ease;
+}
+
+div.size_r1>a {
+
+    color: white;
+    text-transform: none;
+    text-decoration: none;
+}
+
+span.buy_now>a,
+span.wishlist_div>a {
+    color: white;
+    text-transform: none;
+    text-decoration: none;
+}
+
+
+div.preview_images {
+    padding-top: 1em;
+    display: flex;
+}
+
+div.preview_angles>img {
+    width: 10em;
+    display: flex;
+}
+
+div.preview_angles {
+    margin: 0.5em;
+    border: 1px solid wheat;
+}
+
+/* ------- css for responsive layout of website------- */
+
+@media only screen and (max-width:1600px) {
+
+    div.shoe_assests>img {
+        width: 38.5em;
+    }
+
+    div.preview_angles>img {
+        width: 11.2em;
+    }
+
+    div.preview_angles>img {
+        width: 18.5em;
+    }
+}
+
+@media only screen and (max-width:1440px) {}
+
+@media only screen and (max-width: 1280px) {
+
+    div.shoe_assests>img {
+        width: 33.5em;
+    }
+
+    div.preview_angles>img {
+        width: 7.4em;
+    }
+
+    div.color_opt>a>img {
+        width: 7.6em;
+    }
+
+    div.shoe_assests {
+        width: 60%;
+    }
+
+    div.shoe_info {
+        width: 41%;
+    }
+
+    div.preview_angles>img {
+        width: 15.9em;
+    }
+
+    /* CSS for Table */
+
+    div.parent_size_con {
+        display: flex;
+    }
+
+
+    div.size_con_row1 {
+
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    /* CSS for background starts */
+
+    section.main_content1 {
+        background-image: url("Media/background_asset\ _rotate.jpg");
+        background-size: 77%;
+
+    }
+
+
+
+    /* CSS for background ends */
+
+    div.shoe_details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.shoe_assests {
+        width: 100%;
+    }
+
+    div.shoe_assests>img {
+        width: 100%;
+    }
+
+    div.preview_angles>img {
+        width: 10.4em;
+    }
+
+
+    div.shoe_info {
+        width: 100%;
+    }
+
+    div.color_opt>a>img {
+        width: 12em;
+    }
+
+    div.shoe_row1_display {
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {}
+
+@media only screen and (max-width:769px) {
+
+
+    div.preview_angles>img {
+        width: 8.4em;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    div.preview_angles>img {
+        width: 5.0em;
+    }
+
+    div.color_opt>a>img {
+        width: 8em;
+    }
+
+}
+
+@media only screen and (max-width: 426px) {
+
+    div.color_opt>a>img {
+        width: 6.2em;
+    }
+
+    div.preview_angles>img {
+        width: 3.6em;
+    }
+
+    div.shoe_assests {
+        padding: 1em;
+    }
+
+    div.branding>h1 {
+        font-size: 1.9em;
+    }
+
+    p.shoe_pricing {
+        font-size: 1.5em;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {}
+
+/* css for responsivness ends */

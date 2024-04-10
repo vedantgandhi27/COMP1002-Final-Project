@@ -1,0 +1,501 @@
+/* CSS for Contact Us and About Us */
+* {
+    padding: 0em;
+    margin: 0em;
+    box-sizing: border-box;
+}
+
+main.cont_us33 {
+
+    background-image: url("../Media/background_asset.webp");
+    background-size: 76%;
+}
+
+
+section.main_bg1 {
+    /* height: 100vh; */
+    position: relative;
+    color: wheat;
+    font-family: "Cinzel", serif;
+}
+
+/* CSS for Form */
+
+div.name_field,
+div.email_field,
+div.phone_field,
+div.subject_field {
+    display: flex;
+    padding: 0.7em 0;
+}
+
+div.name_field>div,
+div.email_field>div,
+div.phone_field>div,
+div.subject_field>div {
+    width: 50%;
+}
+
+div.form_con {
+    background-image: url("../Media/background_asset.webp");
+    background-size: 76%;
+    box-shadow: 0px 0px 20px 1px #fedf78;
+    border: 1px solid #fedf78;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+    padding: 3em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 39%;
+    left: 50%;
+
+    /* display: none; */
+
+}
+
+
+.name_label,
+.email_label,
+.phone_label,
+.subject_label {
+    text-align: left;
+    font-size: 1.5em;
+    border-bottom: 1px solid wheat;
+    border-right: 1px solid wheat;
+}
+
+.name_input,
+.email_input,
+.phone_input,
+.subject_input {
+    text-align: right;
+    border: none;
+    outline: none;
+}
+
+div.name_input>input,
+div.email_input>input,
+div.phone_input>input,
+div.subject_input>textarea {
+    border: none;
+    outline: none;
+    /* width: 13.5em; */
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    max-width: 13.5em;
+    height: 2em;
+
+}
+
+div.temp1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+div.submit_div {
+    text-align: center;
+    padding-top: 1em;
+}
+
+div.submit_div>button {
+    padding: 0.5em 1em;
+    border: none;
+    outline: none;
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    border-radius: 1em;
+}
+
+div.submit_div>button:hover {
+    background-color: rgb(169, 174, 174);
+    transition: background-color 0.5s ease;
+}
+
+div.heading>h1 {
+    font-size: 2.5em;
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+
+
+/* CSs for other contact us options */
+
+div.call_img>img,
+div.chat_img>img,
+div.mail_img>img {
+    width: 3em;
+}
+
+div.call_img,
+div.chat_img,
+div.mail_img {
+    text-align: center;
+
+}
+
+div.call_text>p,
+div.chat_text>p,
+div.mail_text>p {
+    font-size: 1.3em;
+    padding: 1em 0;
+}
+
+div.more_ways {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80vh;
+    background-image: url("../Media/background_asset.webp");
+    background-size: 76%;
+}
+
+div.more_ways>div {
+    border: 1px solid white;
+    margin: 1em;
+    padding: 1em;
+    min-width: 4em;
+}
+
+div.more_ways div {
+
+    text-align: center;
+    flex-grow: 1;
+}
+
+div.contact_topic {
+    padding: 1.2em 1em;
+    background-color: #fedf78;
+    color: black;
+    border-radius: 1em;
+    font-weight: 700;
+}
+
+div.contact_topic:hover {
+    cursor: pointer;
+    background-color: #f0be17;
+    transition: background-color 0.5s ease;
+}
+
+div.call_img,
+div.chat_img,
+div.mail_img {
+    padding: 1em;
+}
+
+/* CSS  for Contact us page ends */
+
+
+/* CSS for About us webpage starts */
+
+div.masthead>img {
+    width: 100%;
+
+}
+
+div.color-con {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(90deg, transparent, rgba(0, 10, 10, 100));
+}
+
+div.masthead {
+    background-image: url(../Media/bowerman_final.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+
+div.text_content {
+    position: absolute;
+    color: wheat;
+    right: 7%;
+    top: 23%;
+
+}
+
+span.bold_txt {
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+span.be_nike_class {
+    font-size: 8em;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+p.quote {
+    font-size: 1.5em;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+}
+
+div.masthead>img {
+    display: flex;
+}
+
+div.quote-con {
+    max-width: 28em;
+}
+
+section.about_nike {
+    background-image: url(Media/background_asset.webp);
+    background-size: 76%;
+}
+
+div.creator {
+    display: flex;
+}
+
+div.creator_image>img {
+    width: 20em;
+    height: auto;
+    box-shadow: 0em 0 5em 0px #7b7b74;
+    border-radius: 10em;
+}
+
+div.creator_image {
+    align-self: center;
+
+}
+
+div.nike_history>p {
+    color: white;
+    font-size: 1.5em;
+    justify-content: space-evenly;
+    padding: 1em 2em;
+    font-family: "Cinzel", serif;
+    text-align: justify;
+}
+
+div.nike_history {
+    align-content: center;
+}
+
+div.creator {
+    padding: 2em;
+}
+
+div.creator1 {
+    flex-direction: row-reverse;
+}
+
+div.nike_history>h1 {
+    color: white;
+    text-align: center;
+    font-family: "Squada One", sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    color: #d23030;
+}
+
+/* ------- css for responsive layout of website------- */
+
+@media only screen and (max-width:1600px) {}
+
+@media only screen and (max-width:1440px) {
+
+    div.form_con {
+        top: 38%;
+    }
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+    div.empty_div {
+        height: 83vh;
+    }
+
+    div.text_content {
+        top: 14%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    div.nike_history>p {
+        font-size: 1.2em;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+
+    span.be_nike_class {
+        font-size: 6em;
+    }
+
+    span.bold_txt {
+        font-size: 3em;
+    }
+
+    p.quote {
+        font-size: 1.3em;
+    }
+
+    div.text_content {
+        top: 28%;
+        right: 0%;
+    }
+
+    div.creator_image>img {
+        width: 15em;
+    }
+
+    div.nike_history>p {
+        font-size: 1.1em;
+    }
+
+    div.nike_history>h1 {
+        font-size: 2.5em;
+    }
+
+    div.form_con {
+        width: 70%;
+    }
+
+    div.foot-con {
+        /* padding-top: 19em; */
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:769px) {
+
+    div.color-con {
+        background: linear-gradient(90deg, transparent, rgba(1, 1, 0, 0.8) -0.3%);
+    }
+
+    div.nike_history>p {
+        font-size: 1.0em;
+        padding: 0 0 0 2em;
+    }
+
+
+    div.creator1>div.nike_history {
+
+        padding: 0em 2em 0em 0em;
+    }
+
+    div.nike_history>h1 {
+        font-size: 2em;
+    }
+
+    div.creator_image>img {
+        width: 13em;
+
+    }
+
+    div.creator1>div.nike_history>p {
+        padding-top: 1em;
+    }
+
+    div.nike_history>p {
+        padding: 1em 0 0 1em;
+    }
+
+    /* CSS for contact us */
+
+    div.form_con {
+        width: 70%;
+    }
+
+
+    div.foot-con {
+        /* padding-top: 23em; */
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    div.creator,
+    div.creator1 {
+        flex-direction: column;
+    }
+
+    div.text_content {
+        padding: 3em;
+    }
+
+    div.form_con {
+        width: 80%;
+    }
+
+    div.more_ways {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name_label,
+    .email_label,
+    .phone_label,
+    .subject_label {
+
+        border-bottom: none;
+        border-right: none;
+    }
+
+    div.form_con {
+        top: 25%;
+    }
+}
+
+
+@media only screen and (max-width: 426px) {
+
+    span.bold_txt {
+        font-size: 2em;
+    }
+
+    span.be_nike_class {
+        font-size: 4em;
+    }
+
+    p.quote {
+        font-size: 1.2em;
+    }
+
+    div.nike_history>p {
+        padding: 2em 0em 0em 0em;
+    }
+
+    div.nike_history>h1 {
+        font-size: 1.77em;
+    }
+
+    div.form_con {
+        width: 85%;
+        padding: 1em;
+    }
+
+    div.foot-con {
+        /* padding-top: 55em; */
+    }
+
+}
+
+@media only screen and (max-width: 320px) {}
+
+
+/* css for responsivness ends */
